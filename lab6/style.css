@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100vh;
+}
+
+#main{
+    width: 700px;
+    height: 450px;
+    background-color: green;
+    margin:0 auto;
+}
+#nav{
+    height: 40px;
+    display: flex;
+}
+button{
+    width: 333px;
+    border: 2px black solid;
+    color: white;
+    background-color: red;
+    font-size: 1.4em;
+
+}
+.container{
+    position: relative;
+    height: 410px;
+    display: flex;
+}
+
+#leftcontent{
+
+    background-color: blue;
+    width: 95%;
+    height: 100%;
+}
+#rightcontent{
+  width: 5%;
+}
+
+#leftcontent img{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 70%;
+    height: 320px;
+}
+#rightcontent img{
+    display: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 70%;
+    height: 320px;
+}
